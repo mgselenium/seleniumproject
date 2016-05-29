@@ -22,7 +22,7 @@ public class TaskTest {
     }
 
     @Test
-    public void testCreateCampaign() {
+    public void testAddATaskUsingInboxPage() {
         String expectedCampaignName = "New Campaign 00001";
 
     }
