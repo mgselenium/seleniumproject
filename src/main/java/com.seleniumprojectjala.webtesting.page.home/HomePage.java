@@ -1,7 +1,7 @@
-package com.seleniumprojectjala.webtesting.home;
+package com.seleniumprojectjala.webtesting.page.home;
 
 import com.seleniumprojectjala.webtesting.framework.util.AbstractBasePage;
-import com.seleniumprojectjala.webtesting.login.LoginModalPage;
+import com.seleniumprojectjala.webtesting.page.login.LoginModalPage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
