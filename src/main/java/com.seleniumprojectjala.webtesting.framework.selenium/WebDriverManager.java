@@ -20,6 +20,7 @@ public class WebDriverManager {
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         wait = new WebDriverWait(driver, 15);
+        driver.manage().window().maximize();
     }
 
     public static WebDriverManager getInstance() {

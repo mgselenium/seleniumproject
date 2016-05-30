@@ -1,7 +1,7 @@
 package com.seleniumprojectjala.webtesting.page.login;
 
 import com.seleniumprojectjala.webtesting.framework.util.AbstractBasePage;
-import com.seleniumprojectjala.webtesting.page.home.MainContainer;
+import com.seleniumprojectjala.webtesting.page.home.com.seleniumprojectjala.webtesting.page.contents.MainContainer;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -57,7 +57,7 @@ public class LoginModalPage extends AbstractBasePage {
     }
 
     public void clickLoginButton() {
-        //wait.until(ExpectedConditions.elementToBeClickable(loginButton));
+        wait.until(ExpectedConditions.elementToBeClickable(loginButton));
         loginButton.click();
     }
 
